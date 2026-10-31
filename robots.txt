@@ -1,0 +1,25 @@
+# robots.txt - 搜索引擎爬虫指引
+# Lucky Spin Casino
+
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Disallow:
+
+Sitemap: https://luckyspin.vip01.cc.cd/sitemap.xml
+
+# 针对特定爬虫的建议
+User-agent: Googlebot
+Allow: /
+Max-image-preview: large
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /

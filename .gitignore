@@ -1,0 +1,22 @@
+# 依赖
+node_modules/
+
+# 环境变量（含敏感凭证，禁止提交）
+.env
+.env.local
+.env.*.local
+
+# 构建产物
+dist/
+build/
+worker.js
+.vite/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

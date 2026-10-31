@@ -1,0 +1,7 @@
+# Cloudflare Pages 配置
+# Lucky Spin Casino - 轻量级静态 Casino 游戏
+# 部署前先运行: node scripts/build-dist.js
+
+name = "lucky-spin-casino"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-31"
